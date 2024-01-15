@@ -1,0 +1,29 @@
+site_name: Articles
+site_url: https://iran-open-data.github.io/articles/
+repo_url: https://github.com/Iran-Open-Data/articles
+
+theme:
+  name: material
+
+  palette: 
+    # Palette toggle for light mode
+    - scheme: default
+      primary: indigo
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+nav:
+  - articles:
+      - articles/1.md
+
+plugins:
+  - search
+  - autorefs
+  - tags

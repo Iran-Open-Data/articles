@@ -20,10 +20,13 @@ theme:
         name: Switch to light mode
 
 nav:
-  - articles:
-      - articles/1.md
+  - Authors: authors.md
+  - Articles:
+    - 2018: articles/2018
+    - 2023: articles/2023
 
 plugins:
   - search
   - autorefs
-  - tags
+  - tags:
+      tags_file: authors.md

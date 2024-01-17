@@ -1,4 +1,4 @@
-site_name: Articles
+site_name: Iran Empirical Papers
 site_url: https://iran-open-data.github.io/articles/
 repo_url: https://github.com/Iran-Open-Data/articles
 
@@ -20,6 +20,7 @@ theme:
         name: Switch to light mode
 
 nav:
+  - Home: README.md
   - Authors: authors.md
   - Articles:
     - 2018: articles/2018
